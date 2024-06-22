@@ -1,5 +1,5 @@
-module arunk140.com/serve-piper-go
+module aleveha/piper-tts
 
-go 1.20
+go 1.22
 
-require github.com/gorilla/mux v1.8.0
+require github.com/gorilla/mux v1.8.1

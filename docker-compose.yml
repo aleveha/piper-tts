@@ -1,6 +1,7 @@
-version: "3"
 services:
-  serve-piper-tts:
-    image: ghcr.io/arunk140/serve-piper-tts:latest
-    ports:
-      - 8080:8080
+    piper-tts:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 8080:8080
